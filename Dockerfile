@@ -6,4 +6,4 @@ COPY . .
 
 RUN python3 -m pip install -U pyrogram tgcrypto
 
-CMD python -u ./bot.py
+CMD python -u ./main.py
